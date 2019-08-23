@@ -62,4 +62,4 @@ aoiType<-'circular' # overwrite in file before fixations if otherwise (e.g. in i
 print(paste('AOIs are:',aoiType))
 aoimat<-aoimat[1:4,,]
 
-source(paste(fundir,'error.bar.R',sep=''))
+source(paste(fundir,'customFunctions.R',sep=''))
